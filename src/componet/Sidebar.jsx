@@ -69,9 +69,10 @@ const Sidebar =()=>{
 
             <button className="showbtn">Show More</button>
             <hr/>
-            {Data.map((val)=>(
+            {
+            Data.map((val)=>(
             <div className="Friendlist">
-            <Avatar src={val.avatar}/>
+            <Avatar src={val.avatar|| "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYrGXPSDOmmChf_mRxB98aWt0P7gnHPJV2Rw&usqp=CAU"}/>
             <span>{val.first_name}</span>
             </div>
             
