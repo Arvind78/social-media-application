@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header className='header'>
         <div className="option_left">
-               <h3 className='logo'>Apna-social</h3>
+               <h3 className='logo'>Zig-Zag</h3>
         </div>
         <div className="option_center">
            <SearchIcon/>
