@@ -40,7 +40,7 @@ return (
         <div className="Bottom_option">
           <div className="like_option">
               <div className="likebtn" >
-              <IconButton   size="small" style={{backgroundColor:"blue"}}>
+              <IconButton size="small" style={{backgroundColor:"blue"}}>
               <ThumbUpAltSharpIcon style={{color:"white"}}/>
               </IconButton>  
               </div>
