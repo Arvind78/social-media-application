@@ -1,0 +1,60 @@
+.rightber{
+    overflow-y: scroll;
+    height: calc(100vh - 50px);
+    position:fixed;
+    width: 27%;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color:#dad4d4;
+}
+::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: gray;
+}
+.rightbarwrapper{
+    padding: 10px;
+    
+}
+.gif_img{
+    height: 50px;
+    width: 50px;
+}
+.gift{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.gift_text{
+    font-size: 14px;
+}
+.rightber_center{
+    width: 100%;
+    margin-top:25px ;
+
+}
+.rightber_center_img{
+    width: 100%;
+    border-radius: 4px;
+   
+}
+.onlinehedaing{
+      margin: 20px 0px 10px 0px;
+}
+.onlineItem{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 15px 0px;
+}
+.onlinelogo{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    margin: -5px 18px 20px 22px;
+   background-color: lightgreen;
+}

@@ -1,0 +1,23 @@
+.Home_option{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: sticky;
+    background-color: red;
+}
+.Home_option_left{
+    flex:3;
+    background-color:white;
+ 
+     
+}
+
+.Home_option_center{
+    flex:5.5;
+    background-color:white;
+   
+}
+.Home_option_right{
+    flex:3;
+    background-color:white;
+}
