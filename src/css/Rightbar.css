@@ -27,6 +27,7 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
 }
 .gift_text{
     font-size: 14px;
@@ -48,6 +49,7 @@
     display: flex;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
     margin: 15px 0px;
 }
 .onlinelogo{
@@ -55,6 +57,6 @@
     width: 12px;
     border-radius: 50%;
     position: absolute;
-    margin: -5px 18px 20px 22px;
+    margin: -5px 25px 20px 29px;
    background-color: lightgreen;
 }

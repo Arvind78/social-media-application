@@ -9,6 +9,7 @@ import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import WorkOutlineIcon from '@material-ui/icons/WorkOutline';
 import EventIcon from '@material-ui/icons/Event';
 import SchoolIcon from '@material-ui/icons/School';
+import {Data} from "../Data.js"
 import "../css/Sideber.css"
 
 const Sidebar =()=>{
@@ -68,187 +69,15 @@ const Sidebar =()=>{
 
             <button className="showbtn">Show More</button>
             <hr/>
+            {Data.map((val)=>(
             <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
+            <Avatar src={val.avatar}/>
+            <span>{val.first_name}</span>
             </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
+            
+              ))}
             {/* ======================= */}
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
-
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Arvind kumar</span>
-            </div>
-            <div className="Friendlist">
-            <Avatar/>
-            <span>Aditya kumar</span>
-            </div>
+  
 
 
 

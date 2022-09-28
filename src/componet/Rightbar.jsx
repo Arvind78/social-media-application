@@ -2,6 +2,7 @@ import React from 'react'
 import"../css/Rightbar.css";
 import { Avatar } from '@material-ui/core'
 import Img_center from "../assets/post2.jpg"
+import {Data}  from "../Data.js"
 import Gift from "../assets/bharth.png";
 const Rightbar = () => {
   return (
@@ -20,26 +21,14 @@ const Rightbar = () => {
         </div>
          <div className="frienfslist">
              <ul>
+              { Data.map((val)=>(
                 <li className='onlineItem'>
-                    <Avatar/>
+                    <Avatar src={val.avatar}/>
                     <span className='onlinelogo'></span>
-                    <span>summer</span>
+                    <span>{val.first_name}  </span>
                 </li>
-                <li className='onlineItem'>
-                    <Avatar/>
-                    <span className='onlinelogo'></span>
-                    <span>summer</span>
-                </li>
-                <li className='onlineItem'>
-                    <Avatar/>
-                    <span className='onlinelogo'></span>
-                    <span>summer</span>
-                </li>
-                <li className='onlineItem'>
-                    <Avatar/>
-                    <span className='onlinelogo'></span>
-                    <span>summer</span>
-                </li>
+                ))}
+           
              </ul>
          </div>
 
