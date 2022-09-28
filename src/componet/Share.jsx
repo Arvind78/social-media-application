@@ -5,13 +5,13 @@ import RoomIcon from '@material-ui/icons/Room';
 import EmojiEmotionsIcon from '@material-ui/icons/EmojiEmotions';
 import React from 'react'
 import "../css/Share.css"
-
+import Img from "../assets/Avater.jpg"
 const Share = () => {
   return (
     <div className='Share' >
         <div className="share_wrapper">
          <div className="icon_input">
-            <Avatar style={{width:"50px",height:"50px"}}/>
+            <Avatar src={Img} style={{width:"50px",height:"50px"}}/>
             <input type="text" placeholder="What's in your mind arvind ?"/>
          </div>
          <hr className='line_break' />
